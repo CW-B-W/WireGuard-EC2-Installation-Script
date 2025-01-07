@@ -17,7 +17,7 @@ read_config() {
 }
 
 # Read server settings from config file
-SERVER_IP=$(read_config "ServerIP")
+SERVER_IP="10.0.0.1/24"
 LISTEN_PORT=$(read_config "ListenPort")
 DNS=$(read_config "DNS")
 USERS=$(read_config "Users")

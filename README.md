@@ -57,14 +57,13 @@ Before running the script, you need to configure the EC2 Security Group to allow
     -   Edit `wireguard_config.conf` if neccessary:
         ```ini
         # WireGuard Server Configuration
-        ServerIP = 10.0.0.1/24
         ListenPort = 51820
         DNS = 8.8.8.8
 
         # List of Users (one per line)
         Users = client1, client2
         ```
-    -   Modify the `ServerIP`, `ListenPort`, `DNS`, and `Users` values as needed.
+    -   Modify the `ListenPort`, `DNS`, and `Users` values as needed.
 
 3.  **Run the Script**:
     -   Make the script executable:
