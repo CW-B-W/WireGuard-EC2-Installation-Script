@@ -32,6 +32,8 @@ Before running the script, you need to configure the EC2 Security Group to allow
     -   Set the "Source" to "Anywhere" or your specific IP range.
     -   Click "Save rules".
 
+<img width="75%" alt="Screenshot 2025-01-07 at 7 23 25 PM" src="https://github.com/user-attachments/assets/7538b333-eaea-4068-ac41-ecfb562e0b13" />
+
 ## Files
 
 - `wireguard_config.conf`: Configuration file for the WireGuard server.
